@@ -1,5 +1,11 @@
-/* Flag section */
+header {
+    background-color: lightcoral;
+}
 
-#flags {
-    background: url("../assets/images/three-flags.webp");
+main {
+    background-color: lightblue;
+}
+
+footer {
+    background-color: orange;
 }
