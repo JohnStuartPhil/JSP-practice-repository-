@@ -46,6 +46,32 @@ main {
     position: relative;
 }
 
+#cover-text {
+    color: #ffffff;
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 100%;
+}
+
+#cover-text-english {
+    color: #ffffff;
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
+}
+
+#cover-text-french {
+    color: #ffffff;
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
+}
+
+#cover-text-spanish {
+    color: #ffffff;
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
+}
+
+
+
 
 /* sign up section */
 
@@ -67,22 +93,20 @@ main {
     /*left: 0;*/
 }
 
-.send-button {
+.send-button:hover {
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px;
     font-size: 75%;
-    background-color: lightblue;
-    color: black;
+    
 }
 
-.reset-button {
+.reset-button:hover {
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px;
     font-size: 75%;
-    background-color: lightblue;
-    color: black;
+    
 }
 
 /*footer*/
