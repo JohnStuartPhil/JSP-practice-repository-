@@ -38,14 +38,52 @@ main {
 
 }
 
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/three-flags.webp") no-repeat center center/cover;
+    position: relative;
+}
+
+
+/* sign up section */
+
 #signup {
-    background-image: url("assets/images/three-flags.webp");
-    background-size: cover;
-    background-position: 75%;
-    padding: 20px 10% 0 10%;
+    /*background-image: url("assets/images/three-flags.webp");
+    background-size: cover; */
+    padding: 50px 15% 0 15%;
+    /*background-position: 50%;*/
     flex-grow: 1;
 }
 
+#feedback {
+    display: flex;
+}
+
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    /*left: 0;*/
+}
+
+.send-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 75%;
+    background-color: lightblue;
+    color: black;
+}
+
+.reset-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 75%;
+    background-color: lightblue;
+    color: black;
+}
 
 /*footer*/
 footer {
