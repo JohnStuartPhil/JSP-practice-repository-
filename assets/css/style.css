@@ -50,25 +50,35 @@ main {
     color: #ffffff;
     background-color: rgba(241, 109, 107, .7);
     font-size: 100%;
+    text-align: center;
 }
 
 #cover-text-english {
     color: #ffffff;
     background-color: rgba(241, 109, 107, .7);
-    font-size: 130%;
-}
-
-#cover-text-french {
-    color: #ffffff;
-    background-color: rgba(241, 109, 107, .7);
-    font-size: 130%;
+    font-size: 150%;
+    text-align: center;
+    top: 30px;
 }
 
 #cover-text-spanish {
     color: #ffffff;
     background-color: rgba(241, 109, 107, .7);
-    font-size: 130%;
+    font-size: 150%;
+    text-align: center;
+    
 }
+
+#cover-text-french {
+    color: #ffffff;
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 150%;
+    text-align: center;
+   
+
+}
+
+
 
 
 
