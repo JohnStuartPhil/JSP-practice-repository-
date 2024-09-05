@@ -38,6 +38,15 @@ main {
 
 }
 
+#signup {
+    background-image: url("assets/images/three-flags.webp");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+
 /*footer*/
 footer {
     background-color: orange;
